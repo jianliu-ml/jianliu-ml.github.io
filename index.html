@@ -5,71 +5,77 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+<script type="text/javascript"> 
+    function display_c() {
+       var refresh = 1000; // Refresh rate in milli seconds
+       mytime=setTimeout('display_ct()', refresh)
+    }
+
+    function display_ct() {
+      var x = new Date()
+      var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getFullYear(); 
+      x1 = x1 + " - " +  x.getHours( )+ ":" +  x.getMinutes() + ":" +  x.getSeconds();
+      document.getElementById('ct').innerHTML = x1;
+      display_c();
+   }
+</script>
+
 </head>
-<body bgcolor='#f4f4f4'>
+<body bgcolor='#f4f4f4' onload=display_ct()>
 
   <div class="container">
     <br>
     <div class="media">
       <div class="media-body">
-        <h5 class="mt-0">Jian Liu (刘 健)</h5> 
+        <h4 class="mt-0">Jian Liu (刘 健)</h5> 
       </div>
     </div>
-
-<!-
-
     
     <p>
-    Lecturer, Beijing Jiaotong University (BJTU).
+    Lecturer, Beijing Jiaotong University (BJTU)
+    </p>
+
+    <p> 
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        jianliu <i class="fa fa-smile-o" aria-hidden="true"></i> bjtu.edu.cn [<span id='ct' ></span>] [3/10]
+        &nbsp;&nbsp;
     </p>
 
     <p> I got my Ph.D degree at the Institute of Automation, Chinese Academy of Sciences, supervised by Prof. <a href="http://nlpr-web.ia.ac.cn/cip/english/~junzhao/index.html" target="_blank">Jun Zhao</a>.
     </p>
     
     <p>
-    My research interests are in Natural Language Processing (NLP) and Machine Learning (ML).
+    My research interests are in Natural Language Processing and Machine Learning.
     </p>
 
-    <p> 
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        jianliu <i class="fa fa-smile-o" aria-hidden="true"></i> bjtu.edu.cn
-        &nbsp;&nbsp;
-    </p>
+
 
     <hr>
     <h5>Publications</h5>
+    2022
     <ul>
-
       <li>
         <p>
             <h6 class="mb-0">
-            Gated Convolutional Neural Networks with Sentence-Related Selection for Distantly Supervised Relation Extraction
+            Cross-Domain Slot Filling as Machine Reading Comprehension: A New Perspective
             </h6>
-            Yufeng Chen, Siqi Li, Jinan Xu, <b>Jian Liu*</b>
+            <b>Jian Liu</b>, Mengshi Yu, Yufeng Chen, and Jinan Xu
             <br>
-            IEICE Transactions on Information and Systems, 2021 [<a href="" target="_blank">URL</a>] 
+            IEEE Transactions on Audio, Speech and Language Processing (TASLP), 2022 [<a href="" target="_blank">URL</a>][<a href="https://github.com/mengshiY/RCSF" target="_blank">Code</a>]
         </p>
       </li>
+    </ul>
 
+    2021
+    <ul>
       <li>
         <p>
             <h6 class="mb-0">
-            Cross-Domain Slot Filling as Machine Reading Comprehension
-            </h6>       
-			Mengshi Yu#, <b>Jian Liu#</b>, Yufeng Chen, Jinan Xu*, and Yujie Zhang
+            Machine Reading Comprehension as Data Augmentation: A Case Study on Implicit Event Argument Extraction
+            </h6>
+            <b>Jian Liu</b>, Yufeng Chen and Jinan Xu
             <br>
-            International Joint Conference on Artificial Intelligence (IJCAI), Online, 2021 [<a href="" target="_blank">URL</a>] 
-        </p>
-      </li>
-
-      <li>
-        <p>
-            <h6 class="mb-0">
-            Improving Stylized Neural Machine Translation with Iterative Dual Knowledge Transfer
-            </h6>       
-			Xuanxuan Wu#, <b>Jian Liu#</b>, Xinjie Li, Hui Huang, Jinan Xu*, Yufeng Chen, and Yujie Zhang
-            <br>
-            International Joint Conference on Artificial Intelligence (IJCAI), Online, 2021 [<a href="" target="_blank">URL</a>] 
+            Empirical Methods in Natural Language Processing (EMNLP), Online, 2021 [<a href="https://aclanthology.org/2021.emnlp-main.214/" target="_blank">URL</a>][<a href="https://github.com/jianliu-ml/DocMRC" target="_blank">Code</a>] 
         </p>
       </li>
 
@@ -80,34 +86,69 @@
             </h6>
             <b>Jian Liu</b>, Jinan Xu, Yufeng Chen, and Yujie Zhang
             <br>
-            International Joint Conference on Artificial Intelligence (IJCAI), Online, 2021 [<a href="" target="_blank">URL</a>] 
+            International Joint Conference on Artificial Intelligence (IJCAI), Online, August 19-21, 2021, Pages 3871-3877 [<a href="https://www.ijcai.org/proceedings/2021/533" target="_blank">URL</a>][<a href="https://github.com/jianliu-ml/EventTemp" target="_blank">Code</a>]
         </p>
       </li>
 
       <li>
         <p>
             <h6 class="mb-0">
-            Extracting Event and Their Relations from Texts: A Survey on Recent Research Progress and Challenges
-            </h6>
-            Kang Liu, Yubo Chen, <b>Jian Liu</b>, Xinyu Zuo, and Jun Zhao
+            Cross-Domain Slot Filling as Machine Reading Comprehension
+            </h6>       
+			       Mengshi Yu#, <b>Jian Liu#</b>, Yufeng Chen, Jinan Xu*, and Yujie Zhang
             <br>
-            AI Open, Volume 1, 2020, Pages 22-39 [<a href="https://www.sciencedirect.com/science/article/pii/S266665102100005X" target="_blank">URL</a>] 
+            International Joint Conference on Artificial Intelligence (IJCAI), Online, August 19-21, 2021, Pages 3992-3998 [<a href="" target="_blank">URL</a>][<a href="https://github.com/mengshiY/RCSF" target="_blank">Code</a>] 
         </p>
       </li>
-
 
       <li>
         <p>
             <h6 class="mb-0">
-            A spatiotemporal analysis of the robustness of high-speed rail network in China
-            </h6>
-            Jingjuan Jiao, Fangni Zhang*, and <b>Jian Liu*</b>
+            Improving Stylized Neural Machine Translation with Iterative Dual Knowledge Transfer
+            </h6>       
+			       Xuanxuan Wu#, <b>Jian Liu#</b>, Xinjie Li, Jinan Xu*, Yufeng Chen, Yujie Zhang, and Hui Huang
             <br>
-            Transportation Research Part D: Transport and Environment, 2020 [<a href="https://www.sciencedirect.com/science/article/pii/S1361920920307719" target="_blank">URL</a>] 
+            International Joint Conference on Artificial Intelligence (IJCAI), Online, August 19-21, 2021, Pages 3971-3977 [<a href="" target="_blank">URL</a>] 
         </p>
       </li>
 
+      <li>
+        <p>
+            <h6 class="mb-0">
+            Gated Convolutional Neural Networks with Sentence-Related Selection for Distantly Supervised Relation Extraction
+            </h6>
+            Yufeng Chen, Siqi Li, Xingya Li, Jinan Xu, <b>Jian Liu*</b>
+            <br>
+            IEICE Transactions on Information and Systems, 2021 [<a href="" target="_blank">URL</a>] 
+        </p>
+      </li>
+	  
+	 <li>
+        <p>
+            <h6 class="mb-0">
+            Improving Low-Resource Named Entity Recognition via Label-Aware Data Augmentation and Curriculum Denoising
+            </h6>
+            Wenjing Zhu#, <b>Jian Liu#</b>, Jinan Xu*, Yufeng Chen, Yujie Zhang
+            <br>
+            Chinese National Conference on Computational Linguistics, 2021 [<a href="https://aclanthology.org/2021.ccl-1.101/" target="_blank">URL</a>] 
+        </p>
+      </li>
+	  
 
+      <li>
+        <p>
+            <h6 class="mb-0">
+            Saliency-based Multi-View Mixed Language Training for Zero-shot Cross-lingual Classification
+            </h6>
+            Siyu Lai, Hui Huang, Dong Jing, Yufeng Chen, Jinan Xu and <b>Jian Liu</b>
+            <br>
+            Findings of EMNLP 2021, Online, 2021
+        </p>
+      </li>
+    </ul>
+
+    2020
+    <ul>
       <li>
         <p>
             <h6 class="mb-0">
@@ -151,6 +192,33 @@
             International Joint Conference on Artificial Intelligence (IJCAI), Online, January 7-15, 2020, Pages 3608-3614 [<a href="https://www.ijcai.org/Proceedings/2020/499" target="_blank">URL</a>] [<a href="https://github.com/jianliu-ml/EventCausalityIdentification" target="_blank">Code</a>]
         </p>
       </li>
+
+      <li>
+        <p>
+            <h6 class="mb-0">
+            Extracting Event and Their Relations from Texts: A Survey on Recent Research Progress and Challenges
+            </h6>
+            Kang Liu, Yubo Chen, <b>Jian Liu</b>, Xinyu Zuo, and Jun Zhao
+            <br>
+            AI Open, Volume 1, 2020, Pages 22-39 [<a href="https://www.sciencedirect.com/science/article/pii/S266665102100005X" target="_blank">URL</a>] 
+        </p>
+      </li>
+
+
+      <li>
+        <p>
+            <h6 class="mb-0">
+            A spatiotemporal analysis of the robustness of high-speed rail network in China
+            </h6>
+            Jingjuan Jiao, Fangni Zhang*, and <b>Jian Liu*</b>
+            <br>
+            Transportation Research Part D: Transport and Environment, 2020 [<a href="https://www.sciencedirect.com/science/article/pii/S1361920920307719" target="_blank">URL</a>] 
+        </p>
+      </li>
+    </ul>
+
+2019 and before
+    <ul>
 
       <li>
         <p>
