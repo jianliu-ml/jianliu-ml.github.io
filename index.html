@@ -5,24 +5,26 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-<script type="text/javascript"> 
-    function display_c() {
-       var refresh = 1000; // Refresh rate in milli seconds
-       mytime=setTimeout('display_ct()', refresh)
-    }
+<style>
 
+</style>
+
+<script type="text/javascript"> 
     function display_ct() {
       var x = new Date()
       var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getFullYear(); 
       x1 = x1 + " - " +  x.getHours( )+ ":" +  x.getMinutes() + ":" +  x.getSeconds();
+      // var x1 = x.toLocaleString();
       document.getElementById('ct').innerHTML = x1;
-      display_c();
+      // display_c();
    }
+
+   setInterval("display_ct()", 1000);
+
 </script>
 
 </head>
-<body bgcolor='#f4f4f4' onload=display_ct()>
-
+<body bgcolor='#f4f4f4'>
   <div class="container">
     <br>
     <div class="media">
@@ -44,7 +46,7 @@
 
     <p> 
         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        jianliu <i class="fa fa-smile-o" aria-hidden="true"></i> bjtu.edu.cn [<span id='ct' ></span>] [3/10]
+        jianliu <i class="fa fa-smile-o" aria-hidden="true"></i> bjtu.edu.cn [<span id='ct' ></span>] <span style="display:none;">[3/10]</span>
         &nbsp;&nbsp;
     </p>
 
