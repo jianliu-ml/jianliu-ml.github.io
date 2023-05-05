@@ -1,0 +1,40 @@
+Extracting Event and Their Relations from Texts: A Survey on Recent Research Progress and Challenges
+Kang Liu, Yubo Chen, Jian Liu, Xinyu Zuo, Jun Zhao
+AI Open, Volume 1, 2021, Pages 22-39
+
+A spatiotemporal analysis of the robustness of high-speed rail network in China
+Jingjuan Jiao, Fangni Zhang*, Jian Liu*
+Transportation Research Part D: Transport and Environment, Volume 89, December 2020, 102584
+
+Graph-Based Knowledge Integration for Question Answering over Dialogue
+Jian Liu#, Dianbo Sui#, Kang Liu and Jun Zhao
+International Conference on Computational Linguistics (COLING), Online, December 8-13, 2020, Pages 2425–2435.
+
+Event Extraction as Machine Reading Comprehension
+Jian Liu, Yubo Chen, Kang Liu, Wei Bi and Xiaojiang Liu 
+Empirical Methods in Natural Language Processing (EMNLP), Online, November 16–18, 2020, Pages 1641–1651.
+
+How Does Context Matter? On the Robustness of Event Detection with Context-Selective Mask Generalization
+Jian Liu, Yubo Chen, Kang Liu, Yantao Jia and Zhicheng Sheng 
+Findings of EMNLP 2020, Online, November 16–18, 2020, Pages 2523–2532.
+
+Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations
+Jian Liu, Yubo Chen, and Jun Zhao 
+International Joint Conference on Artificial Intelligence (IJCAI), Online, January 7-15, 2020, Pages 3608-3614.
+
+Neural Cross-Lingual Event Detection with Minimal Parallel Resources
+Jian Liu#, Yubo Chen#, Kang Liu, and Jun Zhao 
+Empirical Methods in Natural Language Processing (EMNLP), Hong Kong, China, November 3-7, 2019, Pages 738-748.
+
+Exploiting the Ground-Truth: An Adversarial Imitation Based Knowledge Distillation Approach for Event Detection
+Jian Liu, Yubo Chen, and Kang Liu 
+AAAI Conference on Artificial Intelligence (AAAI), Honolulu, Hawaii, USA, January 27–February 1, 2019, Pages 6754-6761.
+
+Event Detection via Gated Multilingual Attention Mechanism
+Jian Liu, Yubo Chen, Kang Liu, and Jun Zhao 
+AAAI Conference on Artificial Intelligence (AAAI), New Orleans, Louisiana, USA, February 2-7, 2018, Pages 4865-4872.
+
+Attention-Based Event Relevance Model for Stock Price Movement Prediction
+Jian Liu, Yubo Chen, Kang Liu, and Jun Zhao 
+China Conference on Knowledge Graph and Semantic Computing (CCKS), Chengdu, China, August 26-29, 2017, Pages 37-49. (Best Paper Award)
+
